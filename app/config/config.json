@@ -1,0 +1,26 @@
+{
+    "development": {
+        "username": "root",
+        "password": null,
+        "database": "db_donation",
+        "host": "127.0.0.1",
+        "dialect": "mariadb",
+        "operatorsAliases": false
+    },
+    "testing": {
+        "username": "root",
+        "password": null,
+        "database": "db_donation_test",
+        "host": "127.0.0.1",
+        "dialect": "mariadb",
+        "operatorsAliases": false
+    },
+    "production": {
+        "username": "root",
+        "password": null,
+        "database": "database_production",
+        "host": "127.0.0.1",
+        "dialect": "mysql",
+        "operatorsAliases": false
+    }
+}
